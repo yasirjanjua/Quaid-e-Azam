@@ -6,11 +6,14 @@ aside{
   background-color: #EEE;
 }
 
+.sticky-sidebar{
+  position: sticky !important;
+  top: 0;
+}
+
 .side-bar{
   height: 100vh;
   padding: 5px 10px;
-   position: sticky !important;
-  top: 0;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;

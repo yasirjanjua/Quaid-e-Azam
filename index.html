@@ -13,7 +13,7 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <aside class="col-md-3">
+            <aside class="col-md-3 ">
                 <div class="side-bar">
                     <h1 class="text-center text-uppercase">Quaid-e-Azam</h1>
                     <img id="jinnah" src="https://upload.wikimedia.org/wikipedia/en/1/14/Quaidportrait.jpg" alt="Muhammad Ali Jinnah" />
@@ -89,7 +89,20 @@
             </main>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript">
 
+    $(function(){
+    	$(window).resize(function(){
+    		if($(window).width() > 992){
+    			$("aside").addClass("sticky-sidebar");
+    		}
+    		else if($(window).width() < 992 || $("aside").hasClass(".sticky-sidebar")){
+    			$("aside").removeClass("sticky-sidebar");
+ 			}	
+    	});
+    });	
+    </script>
 </body>
 
 </html>
