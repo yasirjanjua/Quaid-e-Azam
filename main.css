@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+}
+
+aside{
+  background-color: #EEE;
+  position: sticky !important;
+  top: 0;
+}
+
+.side-bar{
+  height: 100vh;
+  padding: 5px 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #A9A9A9
+}
+
+#jinnah{
+  margin: 20px 20px;
+  align-self: center;
+}
+
+.wrapper{
+  margin: 40px 20px;
+}
+
+#name{
+  margin: 30px 0;
+  padding: 20px 5px;
+  background-color: #EEE;
+}
+
+#timeline{
+  list-style: disc outside none;
+}
+
+#timeline> li{
+    padding: 3px 0;
+}
+
+blockquote>footer{
+  padding: 5px;
+}
+
+.testimonials{
+  margin: 30px auto;
+  padding: 30px 15px;
+  background-color: #eee;
+}
+
+footer{
+  background-color: #EEE;
+  padding: 20px;
+}
